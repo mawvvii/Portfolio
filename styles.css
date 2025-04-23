@@ -410,21 +410,21 @@ section {
 
 .experience-header h3 {
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   color: #695242;
 }
 
 .location {
+  color: #232D3F;
+  font-weight: 500;
   font-size: 0.95rem;
-  color: var(--darklight);
-  font-style: bold;
 }
 
 .experience-role {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 0.25rem 0 0.5rem;
+  margin: 1.5rem 0 0.5rem;
 }
 
 .experience-role strong {
@@ -432,8 +432,9 @@ section {
 }
 
 .duration {
-  color: var(--darklight);
   font-style: italic;
+  color: #B2998A;
+  font-size: 0.95rem;
 }
 
 .experience-details {
@@ -856,11 +857,11 @@ section {
 }
 
 .switch-game-image img {
-  width: 100%;
   max-width: 100%;
-  border-radius: 10px;
-  object-fit: cover;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  height: auto;
+  border-radius: 1px;
+  object-fit: contain;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
 .switch-game-details {
